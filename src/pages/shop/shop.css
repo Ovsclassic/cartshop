@@ -13,7 +13,7 @@
 
 .product {
   border-radius: 15px;
-  width: 300px;
+  width: 200px;
   height: 350px;
   margin: 100px;
   display: flex;
@@ -23,7 +23,7 @@
 }
 
 .product img {
-  width: 400px;
+  width: 300px;
 }
 
 .product .description {
@@ -50,4 +50,15 @@
   background-color: rgb(19, 19, 19);
   color: white;
   cursor: pointer;
+}
+
+/* ================= MEDIA QUERIES (TABLETS) ================= */
+@media screen and (max-width: 1024px) {
+  .product {
+    width: 200px;
+  }
+
+  .product img {
+    width: 300px;
+  }
 }
